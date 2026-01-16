@@ -1,4 +1,3 @@
-```markdown
 # 🟩 Minecraft Docker + Tailscale (MC Tool)
 
 A system to manage **multiple Minecraft servers** using **Docker Compose**, with private access via **Tailscale**, and a unified `mc` command to control everything from any PC with zero friction.
@@ -258,5 +257,3 @@ mc down
 ```
 
 System ready. Zero friction operations.
-
-```

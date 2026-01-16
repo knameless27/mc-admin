@@ -1,0 +1,17 @@
+services:
+  latest:
+    image: itzg/minecraft-server
+    container_name: latest
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      MEMORY: "4G"
+      VERSION: 1.21.11
+      MOTD: "Waos"
+      DIFFICULTY: "hard"
+      ONLINE_MODE: "TRUE"
+    volumes:
+      - ./servers/survival/data:/data
+    restart: unless-stopped

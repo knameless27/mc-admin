@@ -1,0 +1,33 @@
+# Minecraft data (worlds, logs, configs)␍
+**/data/**
+!**/data/.gitkeep
+servers/*
+
+# Minecraft runtime files
+**/logs/**
+**/crash-reports/**
+**/usercache.json
+**/ops.json
+**/whitelist.json
+**/banned-players.json
+**/banned-ips.json
+
+# Mods & plugins (descargados automáticamente)
+**/mods/**
+**/plugins/**
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# OS junk␍
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+
+# Shell
+*.swp
+*.swo

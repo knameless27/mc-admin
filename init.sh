@@ -39,6 +39,7 @@ if [[ ! -f "$PROJECT_DIR/mc.sh" ]]; then
 fi
 
 chmod +x "$PROJECT_DIR/mc.sh"
+mkdir "$PROJECT_DIR/servers"
 
 cat <<EOF >> "$RC_FILE"
 
@@ -48,4 +49,3 @@ alias mc="$PROJECT_DIR/mc.sh"
 EOF
 
 echo "✅ Command 'mc' installed correctly."
-echo "🔄 Try: source $RC_FILE"
